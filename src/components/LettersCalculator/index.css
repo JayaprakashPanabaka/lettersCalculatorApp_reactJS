@@ -1,0 +1,49 @@
+/* Write your code here. */
+
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100v;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  padding: 1.7rem 1.7rem;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+.label-name {
+  color: #ffffff;
+}
+
+.input-tab {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #e4e7eb;
+  font-weight: bold;
+  height: 40px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+.result-para {
+  background-color: #ffffff;
+  color: #219a6f;
+  font-weight: bold;
+  padding: 1rem;
+  width: 60%;
+  font-size: 1.3rem;
+  border-radius: 9px;
+}
+
+.img {
+  height: 512px;
+}
